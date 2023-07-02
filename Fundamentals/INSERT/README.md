@@ -7,7 +7,7 @@
 2. Insert into all the fields of the table <sub>OBS: `values` order are not important</sub> -> **second tuple of the sample**
 3. Insert into all the fields of the table, but with default `values` -> **third tuple of the sample**
 ## 3.1
-![student1](https://github.com/RogerCL24/pgSQL/assets/90930371/723f4502-a6b1-4823-9d6c-53f03d1aaa4d
+![student1](https://github.com/RogerCL24/pgSQL/assets/90930371/723f4502-a6b1-4823-9d6c-53f03d1aaa4d)
 
 3.1. Same as **3** but we define the default `values` formerly.
 
