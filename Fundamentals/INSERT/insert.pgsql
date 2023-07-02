@@ -2,7 +2,7 @@
 
 -- 1. INSERT INTO table (field1, ..., fieldN) VALUES (value1, ..., valueN)
 INSERT INTO persons (id, first_name, last_name, birthday, available)  -- Can be unordered
-VALUES (gen_random_uuid(), 'Roger', 'Cot', '2006-06-26', True); -- But values has to have the same order that fields
+VALUES (gen_random_uuid(), 'Roger', 'Cot', '2006-06-26', True); -- But values must have the same order that fields
 
 -- 2. INSERT INTO table VALUES (value1, ..., valueN)
 INSERT INTO persons VALUES (gen_random_uuid(), 'Yeneth', 'Gamiton', '2000-01-04', False);
