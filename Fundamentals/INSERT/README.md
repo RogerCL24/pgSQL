@@ -1,6 +1,6 @@
 
 # INSERT command
-<sub>Check insert.pgsql file</sub>
+<sub>Check out insert.pgsql file</sub>
 
 
 ## 1, 2, 3
