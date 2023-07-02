@@ -8,10 +8,11 @@
 3. Insert into all the fields of the table, but with default `values` -> **third tuple of the sample**
 ## 3.1
 ![student1](https://github.com/RogerCL24/pgSQL/assets/90930371/723f4502-a6b1-4823-9d6c-53f03d1aaa4d)
+3.1. Same as **3** but we define the default `values` formerly.
 
 ## 4
 ![student2](https://github.com/RogerCL24/pgSQL/assets/90930371/7f78375c-9bd3-4dcd-bbaa-af695d9ce5bd)
-
+4. Insert several tuples at the same time
 ## 5
 ![tmp_students](https://github.com/RogerCL24/pgSQL/assets/90930371/06296308-ca16-460e-a8c1-2447762f143b)
 
