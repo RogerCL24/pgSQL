@@ -12,3 +12,6 @@
 
 ## 5
 ![tmp_students](https://github.com/RogerCL24/pgSQL/assets/90930371/06296308-ca16-460e-a8c1-2447762f143b)
+
+## 6
+![null](https://github.com/RogerCL24/pgSQL/assets/90930371/0f1a261d-3961-46db-8311-5a26f5a93204)
