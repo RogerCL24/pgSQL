@@ -14,10 +14,12 @@
 ## 4
 ![student2](https://github.com/RogerCL24/pgSQL/assets/90930371/7f78375c-9bd3-4dcd-bbaa-af695d9ce5bd)
 
-4. Insert several tuples at the same time
+4. Insert several tuples at the same time -> **Last 4 tuples of the table**
 
 ## 5
 ![tmp_students](https://github.com/RogerCL24/pgSQL/assets/90930371/06296308-ca16-460e-a8c1-2447762f143b)
 
+5. Insert the foreign key of `tmp_students` table into `students` table referenced attributes
+   
 ## 6
 ![null](https://github.com/RogerCL24/pgSQL/assets/90930371/0f1a261d-3961-46db-8311-5a26f5a93204)
