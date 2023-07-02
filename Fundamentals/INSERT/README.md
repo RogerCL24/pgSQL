@@ -1,3 +1,3 @@
-# <p align="center">
- INSERT command
-</p>
+
+# INSERT command
+
