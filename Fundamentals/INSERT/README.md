@@ -13,7 +13,9 @@
 
 ## 4
 ![student2](https://github.com/RogerCL24/pgSQL/assets/90930371/7f78375c-9bd3-4dcd-bbaa-af695d9ce5bd)
+
 4. Insert several tuples at the same time
+
 ## 5
 ![tmp_students](https://github.com/RogerCL24/pgSQL/assets/90930371/06296308-ca16-460e-a8c1-2447762f143b)
 
