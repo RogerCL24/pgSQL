@@ -22,7 +22,7 @@ CREATE TABLE jobs (
 -- Delete the age attribute from persons table
  ALTER TABLE persons DROP COLUMN age;
 
- -- Add the attribute "job name" to the jobs table
+ -- Add the attribute "job name" to the jobs table 
  ALTER TABLE jobs ADD COLUMN job_name VARCHAR(40);
 
  -- Create a table that we are going to DELETE
