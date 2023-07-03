@@ -19,5 +19,6 @@ cannot exist
 ![4f - copia (2)](https://github.com/RogerCL24/pgSQL/assets/90930371/2bb29798-12f9-4cec-9915-11d8d7782341)
 1.4. Fourth INSERT breach the `PRIMARY KEY` constraintment because the attribute `id` is a `PRIMARY KEY` <sub> **Blue** square</sub>
 
--The value we are inserting in the `id` field is already at the table <sub> **Yellow** square</sub>, therefore the constraint defined as `persons_id_ok` restraint us from copies <sub> **Purple** square</sub>
+- The value we are inserting in the `id` field is already at the table <sub> **Yellow** square</sub>,
+- therefore the constraint defined as `persons_id_ok` restraint us from copies <sub> **Purple** square</sub>
 
