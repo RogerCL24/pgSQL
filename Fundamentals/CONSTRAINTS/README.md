@@ -30,6 +30,6 @@
 2.2. Second `INSERT` breach the `FOREIGN KEY` constraint because the `persons_id` value we are trying to insert it is not at the `id` field of the `persons` table <sub>**Purple** square</sub> 
 
 ![1f](https://github.com/RogerCL24/pgSQL/assets/90930371/1b86fe50-a6d8-41ab-8c4e-c31d31a021f5)
-2.3. The first `DELETE` produces error because we are trying to delete a tuple that has the value `id` from the `persons` table referencing a `persons_id` value from the `jobs` table <sub>**Blue** square </sub> and with the `ON DELETE RESTRICT` commmand <sub> line 42 on the code</sub> we constraint all delete actions to the values that are `FOREIGN KEY`
+2.3. The first `DELETE` produces error because we are trying to delete a tuple that has the value `id` from the `persons` table referencing a `persons_id` value from the `jobs` table <sub>**Blue** square </sub> and with the `ON DELETE RESTRICT` command <sub> line 42 on the code</sub> we constraint all delete actions to the values that are `FOREIGN KEY`
 
 2.4.
