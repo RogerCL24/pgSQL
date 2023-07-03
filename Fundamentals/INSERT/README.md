@@ -26,5 +26,5 @@
 ## 6. Null values
 ![null](https://github.com/RogerCL24/pgSQL/assets/90930371/0f1a261d-3961-46db-8311-5a26f5a93204)
 
-6. The first insert is feasible but wrong, `id` attribute should be a primary key, therefore cannot be **NULL**
+6. The first insert is feasible but wrong, `id` attribute should be a `PRIMARY KEY`, therefore cannot be **NULL** (**CONSTRAINTS** folder)
   - We define the default `value` of `id` as NOT NULL in order to restraint a fraudulent use
