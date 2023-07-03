@@ -22,7 +22,7 @@
 ![5](https://github.com/RogerCL24/pgSQL/assets/90930371/86c9a4df-1d49-40b0-af16-5afce37f6071)
 <sub>before / after </sub>
 
-2.2. `DELETE` deletes all the tuples with the `WHERE` condition even those which should be a `PRIMARY KEY` (**CONSTRAINTS** folder)
+2.2. `DELETE` deletes all the tuples with the `WHERE` condition even those which should be a `PRIMARY KEY`<sub> we don`t apply this here yet</sub> (**CONSTRAINTS** folder)
 
 ![6](https://github.com/RogerCL24/pgSQL/assets/90930371/6e1e0caf-a4bc-43ab-b87b-58d90558a870)
 <sub>before / after </sub>
