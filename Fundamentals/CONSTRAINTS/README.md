@@ -7,4 +7,6 @@
 
 ![4f - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/312cd7e3-762e-444a-a4b2-82b6476fd0eb)
 
-1.2. Second INSERT breach the `UNIQUE KEY` constraintment because the attributes `first_name` and `last_name` are constrained to unique values in their domain 
+1.2. Second INSERT breach the `UNIQUE KEY` constraintment because the attributes `first_name` and `last_name` are constrained to unique values in their domain, repeated values of these attributes
+cannot exists
+
