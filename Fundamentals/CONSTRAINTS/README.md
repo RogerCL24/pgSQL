@@ -28,3 +28,6 @@
 2.1. First `INSERT` produces **no** errors, the field `persons_id` of `jobs` table is referenced by the field `id` of `persons` table <sub> **Yellow** and **Green** squares respectively (is a foreign key) </sub> ,therefore we need a value in `persons_id` that already exists in `id` field and the first `INSERT` meets it <sub>**Blue** square </sub>
 
 2.2. Second `INSERT` breach the `FOREIGN KEY` constraint because the `persons_id` value we are trying to insert it is not at the `id` field of the `persons` table <sub>**Purple** square</sub> 
+
+![1f](https://github.com/RogerCL24/pgSQL/assets/90930371/1b86fe50-a6d8-41ab-8c4e-c31d31a021f5)
+2.3. 
