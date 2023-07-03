@@ -12,7 +12,7 @@ cannot exist
 
 1.3. Third INSERT produces **no** errors <sub> It's not written in the `constraints.pgsql` file, instead we execute the query 2 times with the fourth INSERT</sub>
 
-        
+ -       
 
 ![4f - copia (2)](https://github.com/RogerCL24/pgSQL/assets/90930371/2bb29798-12f9-4cec-9915-11d8d7782341)
 1.4. Fourth INSERT breach the `PRIMARY KEY` constraintment because the attribute 
