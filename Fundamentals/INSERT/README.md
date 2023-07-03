@@ -1,6 +1,6 @@
 
 # INSERT command
-<sub>Check out insert.pgsql file</sub>
+<sub>Check out `insert.pgsql` file to follow the code</sub>
 
 
 ## 1, 2, 3. Basic INSERT types
