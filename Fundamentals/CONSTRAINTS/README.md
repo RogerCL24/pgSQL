@@ -10,8 +10,7 @@
 ![4f - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/312cd7e3-762e-444a-a4b2-82b6476fd0eb)
 
 1.2. Second INSERT breach the `UNIQUE KEY` constraintment because the attributes `first_name` and `last_name` are constrained to unique values in their domain <sub> **red** square </sub> 
-, repeated values of these attributes <sub> **yellow** square </sub>
-cannot exist
+, repeated values of these attributes  cannot exist <sub> **yellow** square </sub>
 
 1.3. Third INSERT produces **no** errors <sub> It's not written in the `constraints.pgsql` file, instead we execute the query 2 times with the fourth INSERT</sub>
 
