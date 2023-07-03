@@ -20,5 +20,5 @@ cannot exist
 1.4. 
 - Fourth INSERT breach the `PRIMARY KEY` constraintment because the attribute `id` is a `PRIMARY KEY` <sub> **Blue** square</sub>
 - The value we are inserting in the `id` field is already at the table <sub> **Yellow** square</sub>,
-- therefore the constraint defined as `persons_id_ok` restraint us from this alikeness <sub> **Purple** square</sub>
+- therefore the constraint defined as `persons_id_pk` restraint us from this alikeness <sub> **Purple** square</sub>
 
