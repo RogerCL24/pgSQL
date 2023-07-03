@@ -24,3 +24,7 @@
 
 2.2. `DELETE` deletes all the tuples with the `WHERE` condition even those which should be a `PRIMARY KEY` (**CONSTRAINTS** folder)
 
+![6](https://github.com/RogerCL24/pgSQL/assets/90930371/6e1e0caf-a4bc-43ab-b87b-58d90558a870)
+<sub>before / after </sub>
+
+2.3. `TRUNCATE` deletes the extension scheme from de table (all the tuple), **not the table**
