@@ -16,4 +16,5 @@
 ## 2. DELETE TABLE'S DATA
 ![third](https://github.com/RogerCL24/pgSQL/assets/90930371/0c7eb9e7-f2a0-4f2a-9f74-2690967fa3ab)
 <sub>before / after </sub>
+
 `DELETE` deletes the tuples which meets the condition stated in `WHERE` <sub>OBS: we use `IS` command **NOT** `=` because null is not a value</sub>
