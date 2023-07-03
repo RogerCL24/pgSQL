@@ -1,4 +1,7 @@
 # UPDATE & DELETE DATA
+
+<subCheck out `rgb(9, 105, 218)` UPD-DEL.pgsql file </sub>
+
 ## 1. UPDATE, SET, WHERE
 ![first](https://github.com/RogerCL24/pgSQL/assets/90930371/00c6be9c-d82b-4737-8949-e4e574a0f02b)
 <sub>before / after </sub>
@@ -11,3 +14,5 @@
 1.2. Now there is no `WHERE` condition, therefore all the tuples will suffer the update in the column named at the `SET` statement
 
 ## 2. DELETE TABLE'S DATA
+![third](https://github.com/RogerCL24/pgSQL/assets/90930371/0c7eb9e7-f2a0-4f2a-9f74-2690967fa3ab)
+<sub>before / after </sub>
