@@ -25,6 +25,6 @@
 ## 2. FOREIGN KEY
 -
 ![4f - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/fbb93a02-638f-4fad-a4df-a8a18bb5e877)
-2.1. First `INSERT` produces **no** errors, the field `persons_id` of `jobs` table is referenced by the field `id` of `persons` table <sub> **Yellow** and **Green** squares respectively (is a foreign key) </sub> therefore we need a value in `persons_id` that already exists in `id` field and the first `INSERT` meets it <sub>**Blue** squarte </sub>
+2.1. First `INSERT` produces **no** errors, the field `persons_id` of `jobs` table is referenced by the field `id` of `persons` table <sub> **Yellow** and **Green** squares respectively (is a foreign key) </sub> ,therefore we need a value in `persons_id` that already exists in `id` field and the first `INSERT` meets it <sub>**Blue** squarte </sub>
 
 2.2. Second `INSERT`
