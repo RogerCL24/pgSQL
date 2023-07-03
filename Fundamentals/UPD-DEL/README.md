@@ -9,3 +9,5 @@
 <sub>before / after </sub>
 
 1.2. Now there is no `WHERE` condition, therefore all the tuples will suffer the update in the column named at the `SET` statement
+
+## 2. DELETE TABLE'S DATA
