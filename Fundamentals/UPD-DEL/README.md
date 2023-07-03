@@ -18,3 +18,9 @@
 <sub>before / after </sub>
 
 2.1. `DELETE` deletes the tuples which meets the condition stated in `WHERE` <sub>OBS: we use `IS` command **NOT** `=` because null is not a value</sub>
+
+![5](https://github.com/RogerCL24/pgSQL/assets/90930371/86c9a4df-1d49-40b0-af16-5afce37f6071)
+<sub>before / after </sub>
+
+2.2. `DELETE` deletes all the tuples with the `WHERE` condition even those which should be a `PRIMARY KEY` (**CONSTRAINTS** folder)
+
