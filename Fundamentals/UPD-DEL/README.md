@@ -1,6 +1,6 @@
 # UPDATE & DELETE DATA
 
-<subCheck out `rgb(9, 105, 218)` UPD-DEL.pgsql file </sub>
+<sub> Check out rgb(9, 105, 218) UPD-DEL.pgsql file </sub>
 
 ## 1. UPDATE, SET, WHERE
 ![first](https://github.com/RogerCL24/pgSQL/assets/90930371/00c6be9c-d82b-4737-8949-e4e574a0f02b)
