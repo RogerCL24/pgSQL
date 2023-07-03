@@ -10,3 +10,4 @@
 1.2. Second INSERT breach the `UNIQUE KEY` constraintment because the attributes `first_name` and `last_name` are constrained to unique values in their domain, repeated values of these attributes
 cannot exist
 
+1.3. Third INSERT produces **no**errors <sub> It's not written in the `constraints.pgsql` file, instead we execute the query 2 times </sub>
