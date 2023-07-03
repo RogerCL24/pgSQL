@@ -22,3 +22,7 @@
 - The value we are inserting in the `id` field is already at the table <sub> **Yellow** square</sub>,
 - therefore the constraint defined as `persons_id_pk` restraint us from this alikeness <sub> **Purple** square</sub>
 
+## 2. FOREIGN KEY
+-
+![4f - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/fbb93a02-638f-4fad-a4df-a8a18bb5e877)
+2.1. 
