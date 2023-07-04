@@ -11,3 +11,5 @@
   - We use `UPDATE` , `SET` and `WHERE` commands to update data in the table
   - We use `DELETE` and `WHERE` to delete data of the table
 <sub>[More info here](UPD-DEL/README.md)</sub>
+
+4. **CONSTRAINTS** folder -> We learn the use of the constraints for the tables like the `PRIMARY KEY`, `UNIQUE KEY`, and `FOREIGN KEY` <sub>[More info here](CONSTRAINTS/README.md)</sub>
