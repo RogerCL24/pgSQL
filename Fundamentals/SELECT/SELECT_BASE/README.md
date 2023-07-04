@@ -15,7 +15,7 @@
 ## 3. Cast
 ![3](https://github.com/RogerCL24/pgSQL/assets/90930371/d581c110-c179-46d9-ac7a-94d8ea504fb3)
 
-3. The query returns the result of an expression, notice that we change the type `int` to `numeric`, we can also `change` string to `data` and a bunch more of conversions
+3. The query returns the result of an expression, notice that we change the type `int` to `numeric`, we can also `change` string to `date` and a bunch more of conversions
 
 ## 4. Functions
 
