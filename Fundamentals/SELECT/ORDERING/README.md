@@ -14,7 +14,7 @@
 ![3](https://github.com/RogerCL24/pgSQL/assets/90930371/b7c83164-492c-4cf2-8b94-75e6e15b373e)
 
 1.3. Now we use nested orders
-- The first one orders the 3rd column descendently and the tuple which has the same value <sub>like `Yeneth` and `Carla` in **Yellow++</sub> use the next column order stated to tiebreak, in this case the column 5 <sub>**Green** color</sub>
+- The first one orders the 3rd column descendently and the tuple which has the same value <sub>like `Yeneth` and `Carla` in **Yellow**</sub> use the next column order stated to tiebreak, in this case the column 5 <sub>**Green** color</sub>
 
 ## 2. Order the output by name 
 ![4](https://github.com/RogerCL24/pgSQL/assets/90930371/3fc46c4c-8807-4b6d-99e5-fb95e11e343d)
