@@ -5,4 +5,4 @@
   - Alter the table with `ALTER` deleting a column with `DROP COLUMN` or adding a column with `ADD COLUMN`
   - Delete the whole table with `DROP TABLE` command
 
-2. **INSERT** folder -> We learn to use the `INSERT` command and his differents forms to declare it (with his differents purposes) <sub>[More info at](INSERT/README.md)
+2. **INSERT** folder -> We learn to use the `INSERT` command and his differents forms to declare it (with his differents purposes) <sub>[More info here](INSERT/README.md)
