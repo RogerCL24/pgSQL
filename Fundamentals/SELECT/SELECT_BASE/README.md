@@ -28,6 +28,7 @@
 ![4](https://github.com/RogerCL24/pgSQL/assets/90930371/d5588282-7bd5-46ab-9bf6-118bf310f751)
 
 - 5.1. `SELECT *` is selecting all <sub> color **Yellow** </sub> the columns from the table `students` with the `FROM` command
+- 
 ![5](https://github.com/RogerCL24/pgSQL/assets/90930371/7bb78cea-773a-4c6d-acfa-7eb0d4e149c8)
 
 - 5.2. Now `SELECT` is narrowing the set of columns to only 3 <sub> each field with his own color at the ouput of the query</sub>
