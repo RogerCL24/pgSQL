@@ -32,5 +32,5 @@
 ![1f](https://github.com/RogerCL24/pgSQL/assets/90930371/1b86fe50-a6d8-41ab-8c4e-c31d31a021f5)
 2.3. The first `DELETE` produces error because we are trying to delete a tuple that has the value `id` from the `persons` table referencing a `persons_id` value from the `jobs` table <sub>**Blue** square </sub> and with the `ON DELETE RESTRICT` command <sub> line 42 on the code</sub> we constraint all delete actions to the values that are `FOREIGN KEY` and are being referenced
 
-2.4. For that reason the second `DELETE` is correct, the value of the `id` field is not referencing any value of the `persons_id` field from the `jobs` table <sub> color **Yellow**</sub> 
+2.4. For that reason the second `DELETE` is correct, the value of the `id` field is not referencing any value of the `persons_id` field from the `jobs` table <sub>**Yellow** color</sub> 
 - **IMPORTANT:** They are `FOREIGN KEY` even though the restriction does not affect them, the restriction only works for the values that are referenced <sub> They are in both tables</sub>
