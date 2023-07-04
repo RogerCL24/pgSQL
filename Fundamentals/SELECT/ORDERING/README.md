@@ -5,7 +5,7 @@
 ## 1. Order the output by number
 ![1](https://github.com/RogerCL24/pgSQL/assets/90930371/54a21039-e844-4cde-9d01-977b6ae53b99)
 
-1.1. We use the command `ORDER BY` followed by the number of the column to indicate the column will be ordered <sub>**Yellow** color</sub> and in which form <sub> ASC or DESC </sub>. as the default mode is ASC the column has been ordered ascendently, notice the `<` operator at the table 
+1.1. We use the command `ORDER BY` followed by the number of the column to indicate the column will be ordered <sub>**Yellow** color</sub> and in which form <sub> ASC or DESC </sub>, as the default mode is ASC the column has been ordered ascendently, notice the `<` operator at the table 
 
 ![2](https://github.com/RogerCL24/pgSQL/assets/90930371/a6aa4d8b-408a-4f95-abf8-d5e9b4c1b934)
 
