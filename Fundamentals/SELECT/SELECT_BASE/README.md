@@ -36,7 +36,8 @@
 ## 6. Naming columns
 ![6](https://github.com/RogerCL24/pgSQL/assets/90930371/6341332f-1556-4edb-abfd-a6e6c78018ff)
 
-- 6.1. The output of the query is correct but the last 2 columns <sub> **Blue** and **Purple**</sub> are nameless 
+- 6.1. The output of the query is correct but the last 2 columns <sub> **Blue** and **Purple**</sub> are nameless
+- 
 ![7](https://github.com/RogerCL24/pgSQL/assets/90930371/e1ca0eef-28b8-4290-aa2c-8cda77869f52)
 
 - 6.2. Now we named the columns we are selecting with `SELECT`, this columns are called **projection** and you can see that with `AS` we name them <sub> each field with a color</sub>
