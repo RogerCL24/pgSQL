@@ -13,3 +13,5 @@
 <sub>[More info here](UPD-DEL/README.md)</sub>
 
 4. **CONSTRAINTS** folder -> We learn the use of the constraints for the tables like the `PRIMARY KEY`, `UNIQUE KEY`, and `FOREIGN KEY` <sub>[More info here](CONSTRAINTS/README.md)</sub>
+
+5. **SELECT** folder -> 
