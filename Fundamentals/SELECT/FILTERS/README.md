@@ -15,9 +15,11 @@
 changes all the letters of the string to capital letters, this way you do not need to know how is exactly written
 
 ## 3. Comparison operators
+![0](https://github.com/RogerCL24/pgSQL/assets/90930371/a15d20df-5445-4f12-93c9-3e22d5b0f094)
 
-![0](https://github.com/RogerCL24/pgSQL/assets/90930371/734592de-d9c9-4e4a-86cc-20774778893a)
+
 <sub> The table `persons` we are working on</sub>
+
 <sub> **Recomendation**: for each of the following figures compare them with this one to better understanding</sub>
 ![4](https://github.com/RogerCL24/pgSQL/assets/90930371/23f0e76f-d2d5-43c6-8158-06bc45b09f77)
 
