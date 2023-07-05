@@ -74,6 +74,7 @@ changes all the letters of the string to capital letters, this way you do not ne
 ![16(1) - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/bd56bad0-9419-4df1-8d07-d1c691febe5e)
 
 <sub> We updated the `birthday` field of the `persons` table to make the example</sub>
+
 6. The `BETWEEN` commands works as a range limitator, therefore we use the `AND` operator, in this example we are looking for the persons with the range of the `birthday` field from 1980-01-01 to 2000-12-31
 
 ## 7. IN
