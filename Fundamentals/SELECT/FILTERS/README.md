@@ -33,11 +33,11 @@ changes all the letters of the string to capital letters, this way you do not ne
 
 ![6](https://github.com/RogerCL24/pgSQL/assets/90930371/a5699ae9-cf27-497b-949a-4b608d023951)
 
-3.3. `>=` operator -> Select all the tuples with the string in `first_name` column bigger and equal to **Carola**
+3.3. `>=` operator -> Select all the tuples with the string in `first_name` column bigger or equal to **Carola**
 
 ![7](https://github.com/RogerCL24/pgSQL/assets/90930371/988d7a5e-cbe9-4a97-9fc7-856d9ee877eb)
 
-3.4. `<=` operator -> Select all the tuples with the string in `first_name` column smaller and equal to **Carola**
+3.4. `<=` operator -> Select all the tuples with the string in `first_name` column smaller or equal to **Carola**
 
 ![8](https://github.com/RogerCL24/pgSQL/assets/90930371/74989bf3-6588-4d68-920b-bf111b72cf6b)
 
