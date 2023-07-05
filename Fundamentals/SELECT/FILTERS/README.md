@@ -99,5 +99,5 @@ changes all the letters of the string to capital letters, this way you do not ne
 
 - `NOT` with sub-query: 
     - First, the second `SELECT` selects all the values from the the `persons_id` of the `jobs` table <sub> **Yellow** square </sub> 
-    - Now we select the values from the `id` field of the `persons` table which are already in the `persons_id` field, because there a `IN` command <sub> **Orange** square</sub>
+    - Now we select the values from the `id` field of the `persons` table which are already in the `persons_id` field, because there is a `IN` command <sub> **Orange** square</sub>
     - Finally with `NOT` we select the values that were not selected formerly from the `id` field <sub> **Purple** square</sub>
