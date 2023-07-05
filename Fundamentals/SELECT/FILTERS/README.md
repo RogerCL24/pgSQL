@@ -93,7 +93,8 @@ changes all the letters of the string to capital letters, this way you do not ne
 
 ![18](https://github.com/RogerCL24/pgSQL/assets/90930371/d79d67bc-59a7-4aca-9a2c-aee37578b5ec)
 
-- Simple `NOT`: Select all the tuples which do `NOT` have the value expressed next to it, in this case `NULL`, then we see all the tuples selected have no `NULL` value <sub> **Yellow** square </sub> in the `updated_at` field <sub> **Orange** square </sub> 
+- Simple `NOT`: Select all the tuples which do `NOT` have the value expressed next to it, in this case `NULL`, then we see all the tuples selected have no `NULL` value <sub> **Yellow** square </sub> in the `updated_at` field <sub> **Orange** square </sub>
+  
 ![16(2)](https://github.com/RogerCL24/pgSQL/assets/90930371/e497d258-8797-42c3-a0c6-ab2223546ee0)
 
 - `NOT` with sub-query: 
