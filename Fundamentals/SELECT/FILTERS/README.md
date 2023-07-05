@@ -58,7 +58,7 @@ changes all the letters of the string to capital letters, this way you do not ne
 ![11](https://github.com/RogerCL24/pgSQL/assets/90930371/4f2609a2-07d8-454a-a96e-da66aa4040bd)
 
 `LIKE` command -> 
-- **Place holder**: Select all the tuples with the string **B_NA_A** in the `first_name` field <sub>**Yellow** square</sub>, namely, is selecting all the strings equal to the letters written in the condition, the `_` spaces can be any letter, if there was a **Banala** value at `first_name` field would showed up alongside  with **Binaia**! <sub>**OBS**: We have to know the length of the word for this one </sub>
+- **Place holder**: Select all the tuples with the string **B_NA_A** in the `first_name` field <sub>**Yellow** square</sub>, namely, is selecting all the strings equal to the letters written in the condition, the `_` spaces can be any letter, if there was a **Banala** value at `first_name` field would showed up alongside  with **Binaia**! <sub>**OBS**: We have to know the length of the word for this one :pensive: </sub>
 
 ![12](https://github.com/RogerCL24/pgSQL/assets/90930371/3dc4aecd-a286-4d04-9a4a-89000d8406c9)
 
