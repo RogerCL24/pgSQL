@@ -14,4 +14,4 @@
 
 4. **CONSTRAINTS** folder -> We learn the use of the constraints for the tables like the `PRIMARY KEY`, `UNIQUE KEY`, and `FOREIGN KEY` <sub>[More info here](CONSTRAINTS/README.md)</sub>
 
-5. **SELECT** folder -> 
+5. **SELECT** folder -> We see the way to use the `SELECT` command and how to mix it with other commands to make it more powerful  <sub>[More info here](SELECT/README.md)</sub>
