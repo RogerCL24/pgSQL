@@ -21,6 +21,8 @@ changes all the letters of the string to capital letters, this way you do not ne
 <sub> The table `persons` we are working on</sub>
 
 <sub> **Recomendation**: for each of the following figures compare them with this one to better understanding</sub>
+
+
 ![4](https://github.com/RogerCL24/pgSQL/assets/90930371/23f0e76f-d2d5-43c6-8158-06bc45b09f77)
 
 3.1. `>` operator -> Select all the tuples with the string in `first_name` column bigger than **Carola** (integers and other type of data can be compared as well)
