@@ -95,7 +95,7 @@ SELECT last_name, COUNT(updated_at) AS quantity
 FROM persons
 GROUP BY last_name;
 
--- Answering questions wiht SQL
+-- Answering questions with SQL
 
 -- Total price of the first invoice
 
