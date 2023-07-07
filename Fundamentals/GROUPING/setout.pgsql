@@ -115,7 +115,7 @@ FROM invoice_items
 GROUP BY invoice_id
 ORDER BY total_price;
 
--- How much the customer Roger Cot has bought?
+-- How much has the customer Roger Cot bought?
 SELECT * FROM persons;
 -- 95347e00-b76e-4f66-aecc-53a088b7dc96
 
@@ -129,7 +129,7 @@ WHERE person_id = '95347e00-b76e-4f66-aecc-53a088b7dc96');
 
 -- Ans: 92.66
 
--- How much the customer Yeneth B has bought?
+-- How much has the customer Yeneth B bought?
 -- 4a1dd58c-f92c-4f66-a1e3-5d2b4f106610
 
 SELECT SUM(price * quantity) AS whole_purcharse
