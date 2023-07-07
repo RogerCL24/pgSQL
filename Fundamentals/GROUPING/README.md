@@ -38,7 +38,7 @@
 ![8ref - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/4fbff878-3416-42c0-b666-b645ffcbfa91)
 - First we select the details of the **first invoice** <sub>**Yellow** color</sub> (because they contain the price), with `WHERE` we are specifying the `invoice_id` we are looking for <sub>**Orange** color</sub>
 
-![8ref - copia (2)](https://github.com/RogerCL24/pgSQL/assets/90930371/39b283d5-0690-4b7c-b6ce-3395411bcbe0)
+![8ref2 - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/3bcb94b9-f830-4763-88d0-3cf05420ac52)
 - Finally we execute the same statement but selecting the **sum** of the **prodcut** between the field `price` and `quantity` with the function `SUM` <sub> **Purple** color </sub> (there are `MIN`, `MAX` and `AVG` functions as well)
 
 So the answer is: **92.66**
