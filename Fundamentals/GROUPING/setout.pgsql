@@ -108,7 +108,7 @@ WHERE invoice_id = '415e7128-f10e-41f3-9ae1-b768aa633015';
 
 -- Ans: 92.66
 
--- Total price of all invoices, grouped by invoice_date
+-- Total price of all invoices, grouped by invoice_id
 
 SELECT invoice_id, SUM(price * quantity) AS total_price
 FROM invoice_items
