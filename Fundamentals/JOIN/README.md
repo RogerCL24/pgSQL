@@ -27,7 +27,7 @@
 ![4ref2 - copia (3)](https://github.com/RogerCL24/pgSQL/assets/90930371/dc927324-0826-4f52-ad17-a5c1c9acaa2f)
 4.1. `LEFT JOIN`: This clause show the the matching relations <sub>**Yellow** and **Orange** color </sub> and all the values from the 'left' table ,whether they have a match or not, in this case `persons` <sub>**Purple** color </sub>
 
-4.2. `RIGHT JOIN`: The same as `LEFT JOIN` but exchanging the tables postions at the code
+4.2. `RIGHT JOIN`: The same as `LEFT JOIN` but exchanging the tables positions at the code
 
 ![9ref](https://github.com/RogerCL24/pgSQL/assets/90930371/5aee0f85-dfc3-4bb7-a477-aae701afd07f)
 4.3. `FULL JOIN` match all the tuples with the same value at the `ON` clause, in this case the `id`, if some `id` it's not matched in the other table the output of that tuple on that field will be **NULL**
