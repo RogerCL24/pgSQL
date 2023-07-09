@@ -31,7 +31,7 @@ then with the `ALTER TABLE ONLY` starts to add the constraintments to the tables
 
 ## RESTORE
 
-There few ways to restore the DB, here we will explain only one:
+There are few ways to restore the DB, here we will explain only one:
 
 - First, you have to connect to your DB server through your CLI in the same directory you have de .sql file
 
