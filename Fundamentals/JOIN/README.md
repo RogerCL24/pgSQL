@@ -5,7 +5,7 @@
 ## 1. CROSS JOIN
 
 ![2](https://github.com/RogerCL24/pgSQL/assets/90930371/a5eecdc7-5679-45d7-a691-25a516582a4c)
-1. The clause `CROSS JOIN` works as cartesian product, each tuple of the table A connects with all the tuples of table B, the next tuple of A does the same and so on <sub> OBS: It's not necessary to write the clause, it's implicit</sub>
+1. The clause `CROSS JOIN` works as the cartesian product, each tuple of the table A connects with all the tuples of table B, the next tuple of A does the same and so on <sub> OBS: It's not necessary to write the clause, it's implicit</sub>
 
 ## 2. NATURAL JOIN
 
