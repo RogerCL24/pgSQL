@@ -23,7 +23,7 @@ pg_dump -d tddinc -f bkup-20230709.sql -O -v -h 127.0.0.1 -p 5432 -U postgres -W
 
 - -W -> Force `pg_dump` to prompt for a password before connecting to a database (must configure pg_hba.conf)
 
-Once you execute the command in the prompt of your CLI,it will generate a `file_name`.sql file which you can read with nano, vim or any text editor.
+Once you execute the command in the prompt of your CLI, it will generate a `file_name`.sql file which you can read with nano, vim or any text editor.
 This file contains, overall, a title, which version of PostgreSQL was used, start date of the backup, required variables to generate the backup, the code with the clauses used to generate the DB backup like `CREATE TABLE ...`       <sub>**Without constraints**</sub> and instead of `INSERT` the command `pg_dump` use by default the clause `COPY` which is faster than `INSERT`,
 then with the `ALTER TABLE ONLY` starts to add the constraintments to the tables 
 
