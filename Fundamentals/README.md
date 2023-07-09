@@ -19,3 +19,5 @@
 5. **SELECT** folder -> We see the way to use the `SELECT` command and how to mix it with other commands to make it more powerful  <sub>[More info here](SELECT/README.md)</sub>
 
 6. **GROUPING** folder -> We learn to group the information we select in order to avoid repetitions with the `GROUP BY` command as well as handle the amount of registers of the output with `HAVING`, `LIMIT` and `OFFSET` <sub>[More info here](GROUPING/README.md)</sub>
+
+7. **JOIN** folder -> The last clause is `JOIN` subdivided in `INNER JOIN`, `NATURAL JOIN`, `FULL JOIN` and `LEFT/RIGHT JOIN`, used to relate tables with one or more fields in common <sub>[More info here](JOIN/README.md)</sub>
