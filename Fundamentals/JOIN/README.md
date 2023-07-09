@@ -12,7 +12,7 @@
 2.1. Firstly, we create 2 tables, `alpha` and `beta`, for the example and we insert the values into them.
 
 ![3](https://github.com/RogerCL24/pgSQL/assets/90930371/4ff20bd8-0802-4fb6-b423-f311c0eb54d3)
-2.2. The clause `NATURAL JOIN` only show the tuples where the name of a field of the table A (`alpha`) match with the name of a field of the table B (`beta`) and the domain type and value is thes same, both tables the field named `id` with domain type `INT` and the matches are the id 1, 2 and 3
+2.2. The clause `NATURAL JOIN` only shows the tuples where the name of a field of the table A (`alpha`) match with the name of a field of the table B (`beta`) and the domain type and value is thes same, both tables the field named `id` with domain type `INT` and the matches are the id 1, 2 and 3
 
 ## 3. INNER JOIN 
 
