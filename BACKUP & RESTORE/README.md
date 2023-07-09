@@ -27,6 +27,8 @@ Once you execute the command in the prompt of your CLI, will generate a `file_na
 This file contains, overall, a title, which version of PostgreSQL was used, start date of the backup, required variables to generate the backup, the code with the clauses used to generate the DB backup like `CREATE TABLE ...`       <sub>**Without constraints**</sub> and instead of `INSERT` the command `pg_dump` use by default the clause `COPY` which is faster than `INSERT`,
 then with the `ALTER TABLE ONLY` starts to add the constraintments to the tables 
 
+**IMPORTANT**: This is only an example, therefore depending on your needs you will need different flags in the command
+
 ## RESTORE
 
 There few ways to restore the DB, here we will explain only one:
