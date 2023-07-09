@@ -19,7 +19,7 @@ pg_dump -d tddinc -f bkup-20230709.sql -O -v -h 127.0.0.1 -p 5432 -U postgres -W
 
 - -p -> Specifies TCP port the server is listening for connections
 
-- -U -> Name the user which will do backup 
+- -U -> Name the user which will do the backup 
 
 - -W -> Force `pg_dump` to prompt for a password before connecting to a database (must configure pg_hba.conf)
 
