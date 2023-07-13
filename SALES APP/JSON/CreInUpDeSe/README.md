@@ -32,7 +32,7 @@ There are two ways to delete a tuple where is a JSON object inside, the traditio
 - This first way is correct but difficult to interpret
 
 ![7](https://github.com/RogerCL24/pgSQL/assets/90930371/268afd88-8204-41cd-953b-4126d63f3c8f)
-- Now we use the operators `->>` and `->` to access to scpecific keys of the JSON object, notice that if it's an array we point to the index and then the key we want to show
+- Now we use the operators `->>` and `->` to access to specific keys of the JSON object, notice that if it's an array we point to the index and then the key we want to show
 
 ![8](https://github.com/RogerCL24/pgSQL/assets/90930371/5b8abdba-45a3-48dd-8078-4aad0428fa52)
 - Finally to access to a nested key, `city` in this case, is important to access to the father key with the `->` operator, because unlike the `->>` operator, `->` give us the real value and with `->>` we change that value to a text format more legible
