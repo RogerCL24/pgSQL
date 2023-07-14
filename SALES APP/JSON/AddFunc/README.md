@@ -8,7 +8,7 @@ We only use the `SUM` function but the procedure is the same for `AVG`,`MIN`,`MA
 
 ![x - copia](https://github.com/RogerCL24/pgSQL/assets/90930371/aee4a05a-f96e-4fb8-a043-29e8f00b5086)
 The `total` key contains the total price of the products the person/tuple has bought, we only need to execute a sum with the values of that key with the `->>` operator
-- Notice that we hacve to cast the text format<sub>we are using the `->>` operator</sub> of the `total` value to `NUMERIC` in order to execute correctly the sum, otherwise we would be adding text!
+- Notice that we have to cast the text format<sub>we are using the `->>` operator</sub> of the `total` value to `NUMERIC` in order to execute correctly the sum, otherwise we would be adding text!
 
 ## Exercise 2
 ### Get the max value from total OBJECT
