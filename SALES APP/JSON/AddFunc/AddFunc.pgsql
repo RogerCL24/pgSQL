@@ -1,12 +1,11 @@
 -- Adding functions
 -- MAX, MIN, AVG, COUNT, SUM
 
--- Ex: Get the total price of all products
-
 -- Sum od the id
 SELECT SUM(sale.id)
 FROM sales2 AS sale;
 
+-- Ex: Get the total price of all products
 -- Sum of the object total
 
 SELECT SUM((sale.sale_details ->> 'total')::NUMERIC) AS total
