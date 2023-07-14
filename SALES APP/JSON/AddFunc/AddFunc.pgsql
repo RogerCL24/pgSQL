@@ -1,7 +1,7 @@
 -- Adding functions
 -- MAX, MIN, AVG, COUNT, SUM
 
--- Sum od the id
+-- Sum of the id
 SELECT SUM(sale.id)
 FROM sales2 AS sale;
 
