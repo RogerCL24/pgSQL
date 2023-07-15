@@ -73,7 +73,7 @@ So the answer is: **92.66**
 3.5. Which customer has done more purcharses? If 1 invoice = 1 purcharse
 
 ![14ref](https://github.com/RogerCL24/pgSQL/assets/90930371/3d51066d-5940-4a67-9576-eb12666129be)
-As we want to know what customer is, we select the `person_id` field <sub> **Yellow** color</sub> and we group by it<sub>**Orange** color</sub>. The table we are selecting the information is `invoices`, so the more times your id (`person_id` field) appears in the table more purcharse you have done, therefore we use the COUNT(*) function, but we do not want to show the customers who has only 1 purcharse, for that reason we limit the ``COUNT`` for at least 2 times with the ``HAVING`` command, if you only appear 1 time in the ``invoices`` table you are not going to be showed at the query output<sub>**Purple** color </sub>
+As we want to know what customer is, we select the `person_id` field <sub> **Yellow** color</sub> and we group by it<sub>**Orange** color</sub>. The table we are selecting the information is `invoices`, so the more times your id (`person_id` field) appears in the table more purcharse you have done, therefore we use the COUNT(*) function, but we do not want to show the customers who has only 1 purcharse, for that reason we limit the ``COUNT`` for at least 2 times with the ``HAVING`` command, if you only appear 1 time in the ``invoices`` table you are not going to be showed at the query output <sub>**Purple** color </sub>
 
 ## 4. LIMIT & OFFSET
 
