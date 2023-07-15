@@ -32,7 +32,7 @@ Summing up, the columns we select in order to answer the exercise are:
 
 2. Using the former query structure, we just need to add the discount and the new price to complete the exercise.
 
-![3](https://github.com/RogerCL24/pgSQL/assets/90930371/9d38877d-7e09-405b-8fba-420ee29908ce)
+![3](https://github.com/RogerCL24/pgSQL/assets/90930371/13346e0e-356b-4442-8d07-6a9c8d7beb7d)
 At the `SELECT` clause we add 2 new columns:
 - `discounts`: We use the CASE function <sub> Same usage as the `switch` command in other PL like pyhton </sub>
 - `discounted_price`: We use the same method as before 
