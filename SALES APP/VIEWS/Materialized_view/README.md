@@ -27,7 +27,7 @@ Show the complete name and number of sales
 1. First we need the `SELECT` part, it's the difficult one because it will define the view
 - We need the ``sales`` and ``employees`` tables, both are linked by the `employee_id` field <sub>**Yellow**</sub>
 - Indeed, the more the employee id appears in the `sales` table more sales that person have done, therefore we use the `COUNT` function in `sales` <sub> **Blue** </sub>
-- We group the counting with ``GROUP BY`` and the new defined fild as `full_name` <sub> **Purple** </sub>
+- We group the counting with ``GROUP BY`` and the new defined field as `full_name` <sub> **Purple** </sub>
 - Finally we order it descendently and we limit it to 1
 The answer is: **Juan González** with **3** sales.
 
