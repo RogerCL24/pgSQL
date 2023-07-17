@@ -40,7 +40,7 @@ Create a function that allows you validate the product price
 - Next, we define the data type we will return (all the UDFs return a value) with the clause 
 `RETURNS` <sub> **Orange** </sub>
 - Then we define the language we are using to implement the function <sub> **Green**</sub> in our case is 
-postgreSQL but you can use Pyhton, Tcl and Perl, if you want to use another PL you can 
+postgreSQL but you can use Pyhton, Tcl or Perl, if you want to use another PL you can 
 search for it in the PostgreSQL extensions
 - After that we open and close the function implementation space with this keys`$$...$$;`
 - Inside of that keys first we declare the variables <sub> Here we have not stated anyone </sub> and then
