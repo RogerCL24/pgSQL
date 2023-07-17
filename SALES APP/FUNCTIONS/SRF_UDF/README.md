@@ -3,7 +3,7 @@
 
 > We are going to use the views created at
  
-[VIEWS](VIEWS/Common_view/Std_view.pgsql)
+[VIEWS](SALES_APP/VIEWS/Common_view/Std_view.pgsql)
 
 ## Single row function (SRF)
  SRFs operates in single rows, they execute in each row of the query, therefore return one result for row.
