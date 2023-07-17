@@ -17,7 +17,7 @@ Given the product_discounts VIEW:
 - Convert in uppercase the CATEGORY field
 - Add 2 decimals to the DISCOUNTED_PRICE field
 
-foto(1)
+![1](https://github.com/RogerCL24/pgSQL/assets/90930371/9ee36bcb-6265-4799-bf10-c1d7a781bcc5)
 We will use the `UPPER` function in the category field defining what field we want to convert in capital 
 letters inside the `()` <sub>**Yellow**</sub> and the `CAST` function at the `discounted_price` field, we can use `CAST` 
 in 2 ways, the one is in the figure `::NUMERIC(d,r)`<sub>**Purple**</sub>, where d is the total digits nº and r is the range of
@@ -30,7 +30,7 @@ UDFs are created and implemented by the DBA or a user with privileges
 Create a function that allows you validate the product price
 - Prices under 10.00 are not allowed (company policies)
 
-foto(2)
+![2](https://github.com/RogerCL24/pgSQL/assets/90930371/b262a289-d3fa-4c3a-8529-ae8e0844f8dc)
 1. First we will show you a super basic function:
 
 - Initially, we use `CREATE FUNCTION`
@@ -45,7 +45,7 @@ search for it in the PostgreSQL extensions
 - Inside of that keys first we declare the variables <sub> Here we have not stated anyone </sub> and then
 we start coding the logical part of the function, indeed between the `BEGIN...END;` clauses
 
-foto(3)
+![3](https://github.com/RogerCL24/pgSQL/assets/90930371/b0c1ab6d-3650-45b6-ad88-7fb1a92c4a78)
 2. Now we can implement the function in order to complete the exercise
 
 Differences with the former function:
@@ -65,11 +65,11 @@ As you can see it works, _12.00_ is greater than _10.00_ so the output of the qu
 For the use example we are going to create a function with the same funcionality as the 
 ``discounted_price`` field in the `product_discounts` view to make it more clean.
 
-foto(5)
+![5](https://github.com/RogerCL24/pgSQL/assets/90930371/056fd42f-07f4-4380-a880-7474ed67cee9)
 - First we create the function use the same pattern as the former functions we created and then 
 we add the code 
 
-foto(6)
+![6](https://github.com/RogerCL24/pgSQL/assets/90930371/35bf417a-b9a5-4a15-8fcf-8dfa73917764)
 - Finally we only need to substitute the former field definition by the created function 
 `calc_discount` <sub> **Yellow** </sub>
 
