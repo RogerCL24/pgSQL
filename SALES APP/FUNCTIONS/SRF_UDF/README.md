@@ -1,7 +1,8 @@
 # Functions
 <sub> Check out [`Functions.pgsql`](Functions.pgsql) file to follow the code </sub>
 
-> We are going to use the views created at 
+> We are going to use the views created at
+ 
 [VIEWS](VIEWS/Common_view/Std_view pgsql)
 
 ## Single row function (SRF)
