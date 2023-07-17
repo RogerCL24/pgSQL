@@ -8,7 +8,7 @@
 
  There are different types of functions:
 
- - **Mathematics**: ABS, ROUND, TRUNC, CEIL and FLOOR
+ - **Mathematics**: _ABS_, ROUND, TRUNC, CEIL and FLOOR
  - **String**: CONCAT, SUBSTRING, LENGTH, LOWER, UPPER, INITCAP and TRIM
  - **Date and hour**: CURRENT_DATE, DATE_PART, TO_DATE, TO_CHAR and AGE
  - **Conversion**: CAST
