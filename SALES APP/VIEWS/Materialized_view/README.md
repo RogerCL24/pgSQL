@@ -29,6 +29,7 @@ Show the complete name and number of sales
 - Indeed, the more the employee id appears in the `sales` table more sales that person have done, therefore we use the `COUNT` function in `sales` <sub> **Blue** </sub>
 - We group the counting with ``GROUP BY`` and the new defined field as `full_name` <sub> **Purple** </sub>
 - Finally we order it descendently and we limit it to 1
+  
 The answer is: **Juan González** with **3** sales.
 
 ![2](https://github.com/RogerCL24/pgSQL/assets/90930371/d1a2b2a1-5170-4718-8ed5-8e5a420ec32d)
