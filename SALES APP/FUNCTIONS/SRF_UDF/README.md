@@ -67,7 +67,7 @@ For the use example we are going to create a function with the same funcionality
 ``discounted_price`` field in the `product_discounts` view to make it more clean.
 
 ![5](https://github.com/RogerCL24/pgSQL/assets/90930371/056fd42f-07f4-4380-a880-7474ed67cee9)
-- First we create the function use the same pattern as the former functions we created and then 
+- First we create the function using the same pattern as the former functions we created and then 
 we add the code 
 
 ![6](https://github.com/RogerCL24/pgSQL/assets/90930371/35bf417a-b9a5-4a15-8fcf-8dfa73917764)
