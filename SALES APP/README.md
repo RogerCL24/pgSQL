@@ -6,5 +6,5 @@
 
 3. `VIEW` folder -> In postgreSQL are 2 types of views, Materialized views and Common views
 
-4. `FUNCTIONS` folder -> We use the 2 types of functions of postgreSQL SRF and UDF <sub>[More info here](FUNCTIONS/SRF_UDF/README.md)</sub>
+4. `FUNCTIONS` folder -> We use the 2 PostgreSQL function types SRF and UDF <sub>[More info here](FUNCTIONS/SRF_UDF/README.md)</sub>
 as well as the handling of errors, exceptions, warnings...
