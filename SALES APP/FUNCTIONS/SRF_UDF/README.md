@@ -21,7 +21,7 @@ Given the product_discounts VIEW:
 ![1](https://github.com/RogerCL24/pgSQL/assets/90930371/9ee36bcb-6265-4799-bf10-c1d7a781bcc5)
 We will use the `UPPER` function in the category field defining what field we want to convert in capital 
 letters inside the `()` <sub>**Yellow**</sub> and the `CAST` function at the `discounted_price` field, we can use `CAST` 
-in 2 ways, the one is in the figure `::NUMERIC(d,r)`<sub>**Purple**</sub>, where d is the total digits nº and r is the range of
+in 2 ways, the one showed at the figure `::NUMERIC(d,r)`<sub>**Purple**</sub>, where d is the total digits nº and r is the range of
 decimals, and the other way is `CAST(field, NUMERIC(d,r))`, both are equal.
 
 ## User defined function (UDF)
