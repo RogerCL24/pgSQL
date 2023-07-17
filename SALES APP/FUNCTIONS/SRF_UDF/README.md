@@ -8,10 +8,10 @@
 
  There are different types of functions:
 
- - **Mathematics**: _ABS_, ROUND, TRUNC, CEIL and FLOOR
- - **String**: CONCAT, SUBSTRING, LENGTH, LOWER, UPPER, INITCAP and TRIM
- - **Date and hour**: CURRENT_DATE, DATE_PART, TO_DATE, TO_CHAR and AGE
- - **Conversion**: CAST
+ - **Mathematics**: _ABS_, _ROUND_, _TRUNC_, _CEIL_ and _FLOOR_
+ - **String**: _CONCAT_, _SUBSTRING_, _LENGTH_, _LOWER_, _UPPER_, _INITCAP_ and _TRIM_
+ - **Date and hour**: _CURRENT_DATE_, _DATE_PART_, _TO_DATE_, _TO_CHAR_ and _AGE_
+ - **Conversion**: _CAST_
 
 ### EXERCISE
 Given the product_discounts VIEW:
