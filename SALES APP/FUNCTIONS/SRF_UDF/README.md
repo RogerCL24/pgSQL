@@ -12,6 +12,7 @@
  - **String**: _CONCAT_, _SUBSTRING_, _LENGTH_, _LOWER_, _UPPER_, _INITCAP_ and _TRIM_
  - **Date and hour**: _CURRENT_DATE_, _DATE_PART_, _TO_DATE_, _TO_CHAR_ and _AGE_
  - **Conversion**: _CAST_
+> Check out the use of each function [https://www.tutorialspoint.com/sql_certificate/using_single_row_functions.htm](https://www.tutorialspoint.com/sql_certificate/using_single_row_functions.htm)
 
 ### EXERCISE
 Given the product_discounts VIEW:
