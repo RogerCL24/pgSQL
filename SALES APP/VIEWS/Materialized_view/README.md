@@ -23,7 +23,7 @@ For materialized view or tables the path of their location will be shown in the 
 **Who is the employee with more sales?**
 Show the complete name and number of sales
 
-foto(1ref)
+![1ref](https://github.com/RogerCL24/pgSQL/assets/90930371/512abe0e-dfec-409a-ad21-adc220c7a383)
 1. First we need the `SELECT` part, it's the difficult one because it will define the view
 - We need the ``sales`` and ``employees`` tables, both are linked by the `employee_id` field <sub>**Yellow**</sub>
 - Indeed, the more the employee id appears in the `sales` table more sales that person have done, therefore we use the `COUNT` function in `sales` <sub> **Blue** </sub>
@@ -31,27 +31,27 @@ foto(1ref)
 - Finally we order it descendently and we limit it to 1
 The answer is: **Juan González** with **3** sales.
 
-foto(2)
+![2](https://github.com/RogerCL24/pgSQL/assets/90930371/d1a2b2a1-5170-4718-8ed5-8e5a420ec32d)
 2. Secondly and to end up, we add the ``CREATE MATERIALIZED VIEW`` clause.
 
 ## 2. USE
 
 ### Common view
 
-foto(3ref)
+![3ref](https://github.com/RogerCL24/pgSQL/assets/90930371/0056505c-a5fc-4506-9159-f69259b80411)
 The usage is exactly like a table. 
 
 ### Materialized view
 
-foto(4)
+![4](https://github.com/RogerCL24/pgSQL/assets/90930371/e9912688-d1f1-4ff6-8210-ce1cb84fab8b)
 The same as the common view.
 
 ## 3. Drawback
 
-foto(5ref)
+![5ref](https://github.com/RogerCL24/pgSQL/assets/90930371/326b5209-de68-4ebd-bfe4-57beb9e7cbb6)
 1. First we update the table ``sales`` inserting more sales done by the employee with id 1, now we have 6 sales <sub> **Yellow** </sub>, but when we select the materializes view ``month_employee`` the field ``total_sales`` is not updated.
 
-foto(6)
+![6](https://github.com/RogerCL24/pgSQL/assets/90930371/eb808ee9-c481-422f-9c5f-b3652fd826c7)
 2. To update a materialized view we have to use the function,
 ```SQL
 REFRESH MATERIALIZED VIEW view_name
