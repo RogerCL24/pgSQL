@@ -73,7 +73,7 @@ we add the code
 
 ![6](https://github.com/RogerCL24/pgSQL/assets/90930371/35bf417a-b9a5-4a15-8fcf-8dfa73917764)
 - Finally we only need to substitute the former field definition by the created function 
-`calc_discount` <sub> **Yellow** </sub>
+`calc_discount` <sub> **Yellow** </sub>, giving the proper fields as parameters
 
 > **Observation**: you can use this clause to delete a function
 ```SQL
