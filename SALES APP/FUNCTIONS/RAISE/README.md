@@ -43,7 +43,7 @@ the output by console will be the following one
 ![3](https://github.com/RogerCL24/pgSQL/assets/90930371/e51dff29-912b-42be-83cc-d76c6b402c60)
 As you can see `INFO` and `NOTICE` display the text in console <sub> **Red**</sub>, they are only informative.
 
-`Log` and `Debug` do not display on the console, `Log` creates a log message in the PostgreSQL log directory and `Debug` display the message when you depure the code
+`LOG` and `DEBUG` do not display on the console, `LOG` creates a log message in the PostgreSQL log directory and `DEBUG` display the message when you depure the code
 
 
 - To check the logs of postgreSQL we have to go to the log directory
