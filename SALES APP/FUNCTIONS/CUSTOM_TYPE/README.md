@@ -1,4 +1,4 @@
-# CUSTOM 
+# CUSTOM TYPE
 
 <sub> Check out [``Comp_type.pgsql``](Comp_type.pgsql) file to follow the code </sub>
 
