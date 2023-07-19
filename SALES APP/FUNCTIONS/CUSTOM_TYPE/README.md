@@ -37,4 +37,4 @@ As you see the var ``customer_data`` is _customer_info_ type, we only have to gi
 
 > Execution
 
-foto(1ref)
+![1ref](https://github.com/RogerCL24/pgSQL/assets/90930371/4fa57416-df66-492f-9899-a019a3c81575)
