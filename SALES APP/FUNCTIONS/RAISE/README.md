@@ -64,8 +64,8 @@ Finally we can see our log message, this is important to handle auditories
 
 ## WARNING & EXCEPTION
 
-foto(7)
+![7](https://github.com/RogerCL24/pgSQL/assets/90930371/77d89a23-4267-43e7-8fe1-b347f4993e42)
 1. `WARNING` has the same usage as ``INFO`` and ``NOTICE``
 
-foto(8)
+![8](https://github.com/RogerCL24/pgSQL/assets/90930371/aa014361-1bb2-4387-89b8-8320e8dbd52f)
 2. `EXCEPTION` is handled as a error raiser, in this case we raise the exception each time the value is lesser than 10.00, is logged in the .log file as well
