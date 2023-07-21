@@ -1,7 +1,6 @@
 
 -- 1. Procedures for adding, deleting and updating rows
 
--- Exercise 1
 -- Add a register to the products table
 
 INSERT INTO products (_names, description, price, inventory_quantity, supplier_id, category_id)
