@@ -147,7 +147,7 @@ CREATE OR REPLACE FUNCTION products_to_buy(
 
 SELECT * FROM products_to_buy(15);
 
--- IN, OUT, INOUT, $
+-- 4. IN, OUT, INOUT, $
 
 CREATE OR REPLACE FUNCTION products_to_buy_v2(
     INOUT stock INTEGER,
@@ -177,7 +177,7 @@ CREATE OR REPLACE FUNCTION products_to_buy_v2(
 
 SELECT * FROM products_to_buy_v2(15);
 
--- Loop & AS 
+-- 5. Loop & AS 
 
 CREATE FUNCTION products_to_buy_v3 (IN INTEGER)
     RETURNS TABLE (product VARCHAR(50),prod_desc text, stock INTEGER)
