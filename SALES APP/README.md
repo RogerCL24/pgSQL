@@ -8,3 +8,5 @@
 
 4. `FUNCTIONS` folder -> We use 2 PostgreSQL function types, SRF and UDF <sub>[More info here](FUNCTIONS/SRF_UDF/README.md)</sub>,
 as well as the handling of errors, exceptions, warnings... with `RAISE`
+
+5. `STORED_PROC` folder -> In order to level up our functions knowledge in postgreSQL we learn the usage of the stored procedures
