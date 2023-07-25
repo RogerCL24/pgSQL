@@ -10,3 +10,5 @@
 as well as the handling of errors, exceptions, warnings... with `RAISE`
 
 5. `STORED_PROC` folder -> In order to level up our functions knowledge in postgreSQL we learn the usage of the stored procedures
+
+6. `TRIGGERS` folder -> Alike to stored procedures but triggers are executed automatically and are used to auditory the data base
