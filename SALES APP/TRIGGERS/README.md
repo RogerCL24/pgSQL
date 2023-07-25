@@ -82,7 +82,7 @@ CREATE FUNCTION modify_product_price ()
     $$;
 ```
 
-> Observation: we use the function _validate_price_ from [``Functions.pgsql``](../FUNCTIONS/SRF_UDF
+> Observation: we use the function _validate_price_ from [``Functions.pgsql``](FUNCTIONS/SRF_UDF
 /Functions.pgsql)
 
 And the trigger would be:
@@ -175,10 +175,12 @@ VALUES (4, 1, 4, '4th Ave N', 70.00);
 ```
 
 The user who executed this operation will see:
-foto(3)
+![3](https://github.com/RogerCL24/pgSQL/assets/90930371/3058f8b3-2ad5-4c57-834a-0d6fd68f517e)
+
 
 And the DBA will see as well:
-foto(4)
+![4](https://github.com/RogerCL24/pgSQL/assets/90930371/f343fea2-70b5-40a3-8c7c-975aea971ff0)
+
 
 If we delete it will also work:
 ```SQL
@@ -186,7 +188,8 @@ DELETE FROM shipping_detail
 WHERE shipping_id = 3 AND product_id = 2;
 ```
 The DBA will see the ``shipping_detail_auditory`` table updated:
-foto(6)
+![6](https://github.com/RogerCL24/pgSQL/assets/90930371/463ea628-aea1-419a-a969-de41ca7f5cff)
+
 
 ## Error handling with TRIGGERS
 
