@@ -82,8 +82,7 @@ CREATE FUNCTION modify_product_price ()
     $$;
 ```
 
-> Observation: we use the function _validate_price_ from [``Functions.pgsql``](FUNCTIONS/SRF_UDF
-/Functions.pgsql)
+> Observation: we use the function _validate_price_ from [``Functions.pgsql``](../FUNCTIONS/SRF_UDF/Functions.pgsql)
 
 And the trigger would be:
 
