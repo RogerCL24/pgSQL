@@ -119,7 +119,7 @@ CREATE FUNCTION delete_product()
             SELECT date_part('dow',now()) INTO day_of_the_week;
             IF day_of_the_week = 3
                 THEN
-                    RAISE EXCEPTIO 'Data base maintenance, DELETE operations will not be allowed';
+                    RAISE EXCEPTION 'Data base maintenance, DELETE operations will not be allowed';
             END IF;
             RETURN OLD;
         END;
