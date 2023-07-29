@@ -38,7 +38,7 @@ Create a function that allows you validate the product price
 - Initially, we use `CREATE FUNCTION`
 - Following that, the name of the function <sub> **Purple** </sub>
 - Now it would come the parameters, but this function is so simple that it has not parametres
-- Next, we define the data type we will return (all the UDFs return a value) with the clause 
+- Next, we define the data type we will return (all the UDFs return a value) <sub>Otherwise we use `VOID`</sub> with the clause 
 `RETURNS` <sub> **Orange** </sub>
 - Then we define the language we are using to implement the function <sub> **Green**</sub> in our case is 
 postgreSQL but you can use Pyhton, Tcl or Perl, if you want to use another PL you can 
