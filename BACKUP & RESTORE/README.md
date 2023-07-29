@@ -3,7 +3,7 @@
 ## BACKUP
 Create a directory or use the directory `/var/backups` of your local computer
 
-```
+```bash
 pg_dump -d tddinc -f bkup-20230709.sql -O -v -h 127.0.0.1 -p 5432 -U postgres -W 
 
 ```
