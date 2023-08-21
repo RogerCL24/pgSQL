@@ -7,7 +7,7 @@
 3. `VIEW` folder -> In postgreSQL are 2 types of views, Materialized views and Common views
 
 4. `FUNCTIONS` folder -> We use 2 PostgreSQL function types, SRF and UDF <sub>[More info here](FUNCTIONS/SRF_UDF/README.md)</sub>,
-as well as the handling of errors, exceptions, warnings... with `RAISE`
+as well as the handling of errors, exceptions, warnings... with `RAISE`, and create types using `CREATE TYPE`
 
 5. `STORED_PROCEDURES` folder -> In order to level up our functions knowledge in postgreSQL we learn the usage of the stored procedures
 
